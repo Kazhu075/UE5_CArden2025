@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UE5CArden",
+			"Path": "..\\Source\\UE5CArden.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UE5CArdenEditor",
+			"Path": "..\\Source\\UE5CArdenEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

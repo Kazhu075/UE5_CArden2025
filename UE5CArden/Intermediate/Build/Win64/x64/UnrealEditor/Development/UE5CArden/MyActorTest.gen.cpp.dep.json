@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\kazhu\\documents\\github\\prograp_prueba\\ue5_carden2025\\ue5carden\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5carden\\uht\\myactortest.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\kazhu\\documents\\github\\prograp_prueba\\ue5_carden2025\\ue5carden\\intermediate\\build\\win64\\x64\\ue5cardeneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\kazhu\\documents\\github\\prograp_prueba\\ue5_carden2025\\ue5carden\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ue5carden\\definitions.ue5carden.h",
+            "c:\\users\\kazhu\\documents\\github\\prograp_prueba\\ue5_carden2025\\ue5carden\\source\\ue5carden\\myactortest.h",
+            "c:\\users\\kazhu\\documents\\github\\prograp_prueba\\ue5_carden2025\\ue5carden\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5carden\\uht\\myactortest.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

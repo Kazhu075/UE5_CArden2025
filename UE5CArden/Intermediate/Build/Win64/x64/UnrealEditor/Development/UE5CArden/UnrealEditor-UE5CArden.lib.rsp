@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UE5CArden.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\kazhu\Documents\GitHub\PrograP_Prueba\UE5_CArden2025\UE5CArden\Intermediate\Build\Win64\x64\UE5CArdenEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:\Users\kazhu\Documents\GitHub\PrograP_Prueba\UE5_CArden2025\UE5CArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5CArden\MyActorTest.gen.cpp.obj"
+"C:\Users\kazhu\Documents\GitHub\PrograP_Prueba\UE5_CArden2025\UE5CArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5CArden\UE5CArden.init.gen.cpp.obj"
+"C:\Users\kazhu\Documents\GitHub\PrograP_Prueba\UE5_CArden2025\UE5CArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5CArden\MyActorTest.cpp.obj"
+"C:\Users\kazhu\Documents\GitHub\PrograP_Prueba\UE5_CArden2025\UE5CArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5CArden\UE5CArden.cpp.obj"
+"C:\Users\kazhu\Documents\GitHub\PrograP_Prueba\UE5_CArden2025\UE5CArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5CArden\PerModuleInline.gen.cpp.obj"
+"C:\Users\kazhu\Documents\GitHub\PrograP_Prueba\UE5_CArden2025\UE5CArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5CArden\Default.rc2.res"
+/OUT:"C:\Users\kazhu\Documents\GitHub\PrograP_Prueba\UE5_CArden2025\UE5CArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5CArden\UnrealEditor-UE5CArden.lib"

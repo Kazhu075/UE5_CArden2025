@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\kazhu\\Documents\\GitHub\\PrograP_Prueba\\UE5_CArden2025\\UE5CArden\\Source\\UE5CArden\\UE5CArden.Build.cs",
+		"C:\\Users\\kazhu\\Documents\\GitHub\\PrograP_Prueba\\UE5_CArden2025\\UE5CArden\\Source\\UE5CArden.Target.cs",
+		"C:\\Users\\kazhu\\Documents\\GitHub\\PrograP_Prueba\\UE5_CArden2025\\UE5CArden\\Source\\UE5CArdenEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}
