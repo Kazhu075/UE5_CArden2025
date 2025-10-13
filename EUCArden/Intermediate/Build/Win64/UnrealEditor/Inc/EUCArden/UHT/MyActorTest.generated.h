@@ -15,7 +15,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define EUCARDEN_MyActorTest_generated_h
 
 #define FID_EUCArden_Source_EUCArden_MyActorTest_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	DECLARE_FUNCTION(execMyFunction);
+	DECLARE_FUNCTION(execDemostrateFundamentals);
 
 
 #define FID_EUCArden_Source_EUCArden_MyActorTest_h_12_INCLASS_NO_PURE_DECLS \
