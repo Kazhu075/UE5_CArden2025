@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿// Fill out your copyright notice in the Description page of Project Settings.
 
 
 #include "MyActorTest.h"
@@ -12,14 +12,14 @@ AMyActorTest::AMyActorTest()
 	edad = 36;
 	esInstructor = false;
 	nombre = "Emmanuel Munguia";
-	DemostrateFundamentals();
+	//DemostrateFundamentals();
 }
 
 // Called when the game starts or when spawned
 void AMyActorTest::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	DemostrateFundamentals();
 }
 
 // Called every frame
@@ -31,42 +31,54 @@ void AMyActorTest::Tick(float DeltaTime)
 
 void AMyActorTest::DemostrateFundamentals()
 {
-	//Operadores Aritmeticos
-	int32 sum = edad + 4;
-	float product = MyFloatVariable * 2.5f;
+    //Operadores Aritmeticos
+    int32 sum = edad + 4;
+    float product = MyFloatVariable * 2.5f;
 
-	//estructuras de control
-	if (esInstructor)
-	{
-		//Imprime en consola
-		UE_LOG(LogTemp, Warning, TEXT("%s es instructor y tiene %d anios"), *nombre, edad);
+    //estructuras de control
+    if (esInstructor)
+    {
+        //Imprime en consola
+        UE_LOG(LogTemp, Warning, TEXT("%s es instructor y tiene %d anios"), *nombre, edad);
 
-		//Imprime en pantalla / viewport
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("%s es instructor y tiene %d anios"), *nombre, edad));
+        //Imprime en pantalla / viewport
+        if (GEngine)  // ✅ VERIFICA QUE GEngine EXISTA
+        {
+            GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red,
+                FString::Printf(TEXT("%s es instructor y tiene %d anios"), *nombre, edad));
+        }
+    }
+    else
+    {
+        UE_LOG(LogTemp, Warning, TEXT("%s no es instructor y tiene %d anios"), *nombre, edad);
 
-	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("%s no es instructor y tiene %d anios"), *nombre, edad);
+        if (GEngine)  // ✅ VERIFICA QUE GEngine EXISTA
+        {
+            GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red,
+                FString::Printf(TEXT("%s no es instructor y tiene %d anios"), *nombre, edad));
+        }
+    }
 
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("%s no es instructor y tiene %d anios"), *nombre, edad));
-	}
+    //bucles o ciclos
+    for (int32 i = 0; i < 5; i++)
+    {
+        FString DebugMessage = FString::Printf(TEXT("loop iteration: %d"), i);
+        if (GEngine)  // ✅ VERIFICA QUE GEngine EXISTA
+        {
+            GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Green, DebugMessage);
+        }
+    }
 
-	//bucles o ciclos
-	for (int32 i = 0; i < 5; i++)
-	{
-
-		FString DEbugMesage = FString::Printf(TEXT("loop iteration: %d"), i);
-		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Green, DEbugMesage);
-
-	}
-	//bucle while
-	int32 count = 0;
-	while (count < 3)
-	{
-		FString WhileMessage = FString::Printf(TEXT("While loop iteration: %d"), count);
-		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Cyan, WhileMessage);
-		count++;
-	}
+    //bucle while
+    int32 count = 0;
+    while (count < 3)
+    {
+        FString WhileMessage = FString::Printf(TEXT("While loop iteration: %d"), count);
+        if (GEngine)  // ✅ VERIFICA QUE GEngine EXISTA
+        {
+            GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Cyan, WhileMessage);
+        }
+        count++;
+    }
 }
 
