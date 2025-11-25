@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\kazhu\\Documents\\GitHub\\UE5_CArden2025\\EUCArden\\Source\\EUCArden\\EUCArden.Build.cs",
-		"C:\\Users\\kazhu\\Documents\\GitHub\\UE5_CArden2025\\EUCArden\\Source\\EUCArden.Target.cs",
-		"C:\\Users\\kazhu\\Documents\\GitHub\\UE5_CArden2025\\EUCArden\\Source\\EUCArdenEditor.Target.cs"
+		"D:\\GitHub\\UE5_CArden2025\\EUCArden\\Source\\EUCArden\\EUCArden.Build.cs",
+		"D:\\GitHub\\UE5_CArden2025\\EUCArden\\Source\\EUCArden.Target.cs",
+		"D:\\GitHub\\UE5_CArden2025\\EUCArden\\Source\\EUCArdenEditor.Target.cs"
 	],
 	"EngineVersion": "5.5.4"
 }
